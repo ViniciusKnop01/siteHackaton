@@ -29,7 +29,7 @@ header img {
 #button-row {
   display: flex;
   justify-content: space-between;
-  width: 12%;
+  width: 10%;
 }
 
 header span {
@@ -40,9 +40,10 @@ header span {
 .add-button {
   background-color: #290963;
   color: #ffffff;
-  width: 100px;
+  width: 50px;
   height: 40px;
-  font-size: 30px;
+  font-size: 20px;
+  border-radius: 12px;
   cursor: pointer;
 }
 
