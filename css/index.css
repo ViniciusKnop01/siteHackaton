@@ -5,20 +5,24 @@
 }
 
 body {
-  background-color: #edf2f4;
+  background-color: #a3c5f1;
   font-family: Arial, Helvetica, sans-serif;
   color: #000000;
 }
 
 header {
-  background-color: #192338;
+  background-color: #192338b7;
   color: #ffffff;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 70px;
   padding: 10px;
+  margin-bottom: 100px;
+  margin-left: 10%;
+  max-width: 80%;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
 }
 
 header img {
@@ -95,11 +99,7 @@ footer {
     left: 0;
     right: 0;
     bottom: 0;
-    background: radial-gradient(circle at center,
-        transparent 0%,
-        rgba(var(--bg-primary-rgb), 0.3) 50%,
-        rgba(var(--bg-primary-rgb), 0.8) 100%
-    );
+   
     z-index: -1;
 }
 
@@ -112,7 +112,7 @@ footer {
 .hero-content h1 {
     font-size: 3.5rem;
     margin-bottom: 1rem;
-    color: var(--text-primary);
+    color: rgb(1, 39, 56);
     font-family: 'Rajdhani', sans-serif;
     font-weight: 700;
 }
@@ -120,7 +120,7 @@ footer {
 .hero-content p {
     font-size: 2rem;
     margin-bottom: 2rem;
-    color: var(--text-secondary);
+    color: rgb(1, 39, 56);
     font-family: 'Rajdhani', sans-serif;
     font-weight: 500;
 }
@@ -156,4 +156,23 @@ footer {
 .btn:hover {
     transform: translateY(-2px);
     box-shadow: var(--card-shadow);
+}
+
+.btn.primary, btn.secondary {
+    background: linear-gradient(90deg, #4285F4 0%, #345da8 100%);
+    text-decoration: none;
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 24px 0 rgba(66,133,244,0.10);
+    font-weight: 600;
+    font-size: 1.1rem;
+    padding: 0.9rem 2.1rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.7rem;
+    transition: background 0.3s, box-shadow 0.3s, transform 0.2s;
+    margin-bottom: 1.2rem;
+    position: relative;
+    z-index: 1;
 }
