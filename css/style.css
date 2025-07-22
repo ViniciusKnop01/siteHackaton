@@ -11,7 +11,7 @@ body {
 }
 
 header {
-  background-color: #2b2d42;
+  background-color: #491353;
   color: #ffffff;
 
   display: flex;
@@ -19,6 +19,11 @@ header {
   align-items: center;
   height: 70px;
   padding: 10px;
+}
+
+header img {
+  width: 25;
+  height: 25;
 }
 
 #button-row {
@@ -33,7 +38,7 @@ header span {
 }
 
 .add-button {
-  background-color: #ef233c;
+  background-color: #290963;
   color: #ffffff;
   width: 100px;
   height: 40px;
@@ -48,7 +53,7 @@ footer {
 }
 
 .add-button-description {
-  background-color: #ef233c;
+  background-color: #290963;
   color: #ffffff;
   width: 100px;
   height: 40px;
