@@ -245,10 +245,10 @@ footer {
 .form-group textarea {
   width: 100%;
   padding: 10px;
-  border: 2px solid #e8eaed;
+  border: none;
   border-radius: 12px;
   font-size: 14px;
-  color: #333;
+  color: #a09d9d;
   font-family: inherit;
 }
 
