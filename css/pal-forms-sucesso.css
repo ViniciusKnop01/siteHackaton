@@ -15,6 +15,7 @@ body {
 
 main {
   flex-grow: 1;
+  align-items: center;
 }
 
 header {
@@ -231,7 +232,7 @@ footer {
 
 .form-page-container {
   max-width: 800px;
-  margin: 60px;
+  margin-left: 30%;
 }
 
 .form-container {
@@ -272,5 +273,28 @@ footer {
   font-size: 20px;
   cursor: pointer;
   margin-top: 10px;
+  border: none
+}
+
+/*  SUCESSO */
+
+.sucesso {
+  max-width: 800px;
+  margin-left: 30%;
+  background-color: #789ac5;
+  padding: 25px 45px;   
+  border-radius: 14px;
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.home-button {
+  width: 85px;
+  padding: 16px;
+  background-color: #1E2E4F;
+  color: #ffffff;
+  border-radius: 12px;
+  font-size: 20px;
+  cursor: pointer;
+  margin-top: 15px;
   border: none
 }
