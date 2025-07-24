@@ -1,0 +1,33 @@
+header img {
+  width: 50px;
+  height: 50px;
+}
+header span {
+  font-size: 36px;
+  font-weight: 400;
+}
+
+ .header {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    max-width: 1200px;
+    background: rgba(255, 255, 255, 0.18);
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    z-index: 100000;
+    margin-top: 20px;
+    backdrop-filter: blur(14px) saturate(180%);
+    -webkit-backdrop-filter: blur(14px) saturate(180%);
+    border: 1.5px solid rgba(255,255,255,0.25);
+    animation: slideInFromTop 0.8s ease-out;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}

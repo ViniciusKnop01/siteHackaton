@@ -168,7 +168,6 @@ footer {
     display: inline-flex;
     align-items: center;
     gap: 0.7rem;
-    transition: background 0.3s, box-shadow 0.3s, transform 0.2s;
     margin-bottom: 1.2rem;
     position: relative;
     z-index: 1;
