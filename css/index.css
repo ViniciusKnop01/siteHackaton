@@ -5,26 +5,14 @@
 }
 
 body {
+  margin-top: 10%;
   background-color: #a3c5f1;
   font-family: 'Rajdhani', Helvetica, sans-serif;
   color: #000000; 
 }
 
 
-header {
-  background-color: #192338b7;
-  color: #ffffff;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 70px;
-  padding: 10px;
-  margin-bottom: 100px;
-  margin-left: 10%;
-  max-width: 80%;
-  border-radius: 10px;
-  backdrop-filter: blur(10px);
-}
+
 
 header img {
   width: 50px;
@@ -35,6 +23,9 @@ header img {
   display: flex;
   justify-content: space-between;
   width: 7%;
+  gap: 40%;
+  margin-right: 12%
+  
 }
 
 header span {
@@ -61,9 +52,13 @@ header span {
 }
 
 footer {
-  background-color: #f4f5f6;
+  background-color: #122231;
   text-align: center;
   font-size: 16px;
+}
+
+footer p{
+  color: #f3f4f6;
 }
 
 .add-button-description {
@@ -183,4 +178,70 @@ footer {
     margin-bottom: 1.2rem;
     position: relative;
     z-index: 1;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    padding: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.e-card {
+    margin: 100px auto;
+    background: transparent;
+     background: linear-gradient(90deg, #4285F4 0%, #345da8 100%);
+    box-shadow: 0px 8px 28px -9px rgba(0,0,0,0.45);
+    position: relative;
+    width: 340px;
+    height: 330px;
+    border-radius: 16px;
+    overflow: hidden;
+  }
+
+    .infotop {
+    text-align: center;
+    font-size: 20px;
+    position: absolute;
+    top: 5.6em;
+    left: 0;
+    right: 0;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+  }
+  
+ .text-card {
+    scale:70%;
+  }
+
+  .header {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    max-width: 1200px;
+    background: rgba(255, 255, 255, 0.18);
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    z-index: 100000;
+    margin-top: 20px;
+    backdrop-filter: blur(14px) saturate(180%);
+    -webkit-backdrop-filter: blur(14px) saturate(180%);
+    border: 1.5px solid rgba(255,255,255,0.25);
+    animation: slideInFromTop 0.8s ease-out;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.logo h1 {
+    color: var(--secondary-green);
+    font-size: 2rem;
 }
