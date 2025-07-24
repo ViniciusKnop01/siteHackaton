@@ -30,6 +30,7 @@ header {
   max-width: 80%;
   border-radius: 10px;
   backdrop-filter: blur(10px);
+  top: 20px;
 }
 
 header img {
@@ -223,11 +224,16 @@ footer {
 
 .main h1 {
   font-size: 40px;
-
+  text-align: center;
 }
 
 /*  FORMULARIO  */
 
 .form-page-container {
+  max-width: 800px;
+  margin: 60px auto;
+}
+
+.form-page-container h2 {
 
 }
