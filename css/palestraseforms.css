@@ -224,10 +224,16 @@ footer {
 
 .main h1 {
   font-size: 40px;
+  text-align: center;
 }
 
 /*  FORMULARIO  */
 
 .form-page-container {
+  max-width: 800px;
+  margin: 60px auto;
+}
+
+.form-page-container h2 {
 
 }
