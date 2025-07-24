@@ -15,6 +15,7 @@ body {
 
 main {
   flex-grow: 1;
+  align-items: center;
 }
 
 header {
@@ -231,7 +232,7 @@ footer {
 
 .form-page-container {
   max-width: 800px;
-  margin: 60px;
+  margin-left: 30%;
 }
 
 .form-container {
