@@ -190,7 +190,7 @@ footer {
   background-color: #f4f5f6;
   border: 1px solid #8d99ae;
   border-radius: 12px;
-  width: 200px;
+  width: 280px;
   text-align: center;
   box-shadow: 0px 4px 3px 0px #00000040;
 }
@@ -204,7 +204,7 @@ footer {
 .palestras-descrição h3 {
   font-weight: 700;
   font-size: 16px;
-  margin-top: 19px;
+  margin-top: 10px;
 }
 
 .lista-de-palestras {
@@ -213,11 +213,17 @@ footer {
   row-gap: 40px;
   column-gap: 60px;
   margin: 0 auto;
-  padding: 10px;
+  padding-top: 20px;
 }
 
 .main {
   margin: 0 auto;
+  max-width: fit-content;
+}
+
+.main h1 {
+  font-size: 40px;
+
 }
 
 /*  FORMULARIO  */
