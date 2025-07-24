@@ -231,9 +231,46 @@ footer {
 
 .form-page-container {
   max-width: 800px;
-  margin: 60px auto;
+  margin: 60px;
 }
 
-.form-page-container h2 {
+.form-container {
+  background-color: #789ac5;
+  padding: 25px 45px;   
+  border-radius: 14px;
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
 
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 12px;
+  font-size: 14px;
+  color: #a09d9d;
+  font-family: inherit;
+}
+
+.form-group {
+  margin-bottom: 34px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-size: 24px;
+  margin-bottom: 6px;
+}
+
+.submit-button {
+  width: 100px;
+  padding: 15px;
+  background-color: #1E2E4F;
+  color: #ffffff;
+  border-radius: 12px;
+  font-size: 20px;
+  cursor: pointer;
+  margin-top: 10px;
+  border: none
 }
