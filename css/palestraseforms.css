@@ -8,6 +8,13 @@ body {
   background-color: #a3c5f1;
   font-family: Arial, Helvetica, sans-serif;
   color: #000000;
+  min-height: 100vh; 
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex-grow: 1;
 }
 
 header {
@@ -209,8 +216,12 @@ footer {
   padding: 10px;
 }
 
+.main {
+  margin: 0 auto;
+}
+
 /*  FORMULARIO  */
 
 .form-page-container {
-  
+
 }
