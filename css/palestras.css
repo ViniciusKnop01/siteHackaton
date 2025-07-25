@@ -21,10 +21,10 @@ main {
 
 
 
-header img {
+/*header img {
   width: 50px;
   height: 50px;
-}
+}*/
 
 #button-row {
   display: flex;
@@ -32,12 +32,12 @@ header img {
   width: 7%;
 }
 
-header span {
+/*header span {
   font-size: 36px;
   font-weight: 400;
-}
+}*/
 
-.add-button {
+/*.add-button {
   background-color: #1E2E4F;
   color: #ffffff;
   width: 50px;
@@ -45,7 +45,7 @@ header span {
   font-size: 20px;
   border-radius: 12px;
   cursor: pointer;
-}
+}*/
 
 footer {
   background-color: #f4f5f6;
@@ -218,7 +218,37 @@ footer {
 /*  FORMULARIO  */
 
 
-.header {
+/*.header {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    max-width: 1200px;
+    background: rgba(255, 255, 255, 0.18);
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    z-index: 100000;
+    margin-top: 20px;
+    backdrop-filter: blur(14px) saturate(180%);
+    -webkit-backdrop-filter: blur(14px) saturate(180%);
+    border: 1.5px solid rgba(255,255,255,0.25);
+    animation: slideInFromTop 0.8s ease-out;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}*/
+
+.main{
+  margin-top: 10%;
+}
+
+/* HEADER */
+  .header {
     position: fixed;
     top: 20px;
     left: 50%;
@@ -243,9 +273,32 @@ footer {
     padding: 1rem 2rem;
 }
 
-.main{
-  margin-top: 10%;
+header img {
+  width: 50px;
+  height: 50px;
 }
 
+header span {
+  font-size: 36px;
+  font-weight: 400;
+}
 
+.add-button {
+    background: linear-gradient(90deg, #4285F4 0%, #345da8 100%);
+    text-decoration: none;
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 24px 0 rgba(66,133,244,0.10);
+    font-weight: 600;
+    font-size: 1.1rem;
+    padding: 0.9rem 2.1rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.7rem;
+    margin-bottom: 1.2rem;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+}
 
