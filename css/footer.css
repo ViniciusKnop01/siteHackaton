@@ -84,6 +84,7 @@
     display: flex;
     gap: 1rem;
     margin-top: 1rem;
+    padding-left: 35%;
 }
 
 .social-icons a {
