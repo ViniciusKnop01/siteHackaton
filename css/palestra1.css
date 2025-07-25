@@ -253,7 +253,7 @@ footer {
     box-shadow: 0px 8px 28px -9px rgba(0,0,0,0.45);
     border-radius: 16px;
     margin-bottom: 5%;
-    background: #345da8;
+    background: #789ac5;
 
 }
 
@@ -263,13 +263,7 @@ footer {
     padding: 2%;
     box-shadow: 0px 8px 28px -9px rgba(0,0,0,0.45);
     border-radius: 16px;
-    background: #345da8;
+    background: #789ac5;
 
 }
 
-.add-button-description{
-    border-radius: 20px;
-    padding: 1%;
-    margin: 2%;
-    background: #345da8;
-}
