@@ -9,6 +9,13 @@ body {
   background-color: #a3c5f1;
   font-family: 'Rajdhani', Helvetica, sans-serif;
   color: #000000; 
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main{
+    flex-grow: 1;
 }
 
 
@@ -49,6 +56,7 @@ header span {
     margin-bottom: 1.2rem;
     position: relative;
     z-index: 1;
+    cursor: pointer;
 }
 
 footer {
